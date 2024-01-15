@@ -9,9 +9,9 @@ export const metadata = {
     'twitter:image':
       'https://cdn.sanity.io/images/stq2zs7v/production/f5f70d04a0a726c422bc61dc6422f6638846364c-1801x1080.webp',
     'twitter:card': 'summary_large_image',
-    'og:url': 'https://next-js-portfolio-phi-eight.vercel.app/',
-    'og:image':
-      'https://cdn.sanity.io/images/stq2zs7v/production/f5f70d04a0a726c422bc61dc6422f6638846364c-1801x1080.webp',
+    'og:url': 'https://bhavya-portfolio-iota.vercel.app/',
+    // 'og:image':
+    //   'https://cdn.sanity.io/images/stq2zs7v/production/f5f70d04a0a726c422bc61dc6422f6638846364c-1801x1080.webp',
     'og:type': 'website',
   },
 }
