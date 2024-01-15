@@ -34,7 +34,7 @@ const Contact = () => {
         setMessage('')
       }, 3000)
     } catch (error) {
-      console.log(error)
+      console.log('email send failed: ', error)
       setButtonText('Failed!')
       setIsLoading(false)
       setTimeout(() => {
@@ -68,6 +68,7 @@ const Contact = () => {
           </motion.div>
           {/* form */}
           <motion.form
+            ref={form}
             onSubmit={sendEmail}
             variants={fadeIn('left', 0.1)}
             initial="hidden"

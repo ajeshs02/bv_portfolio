@@ -15,7 +15,7 @@ const HeroText = () => {
     >
       <span className={`text-white transition-all  mr-2`}>I am a</span>
       <TypeAnimation
-        sequence={['Web Developer', 2000, 'Freelancer', 2000]}
+        sequence={['UI/UX Designer', 2000, 'Freelancer', 2000]}
         speed={30}
         className="text-purple-800"
         wrapper="span"

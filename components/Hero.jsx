@@ -6,7 +6,11 @@ const Hero = () => {
   return (
     <section className="h-[91vh] flex items-center snap-start" id="home">
       <div className="container mx-auto">
-        <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
+        <div
+          className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12 max-md:mb-16o
+
+        o"
+        >
           {/* ṭext */}
           <div className="flex-1  text-center font-secondary lg:text-left">
             <MotionH1

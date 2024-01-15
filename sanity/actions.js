@@ -8,6 +8,7 @@ export const getProjects = async () => {
       groq`${buildQuery({
         type: 'projects',
         page: 1,
+        perPage: 20,
       })}{
         name,
         description,
