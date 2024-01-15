@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Ajesh S',
-  description: 'Ajesh S portfolio in Next.Js-14',
+  title: 'Bhavya B | Portfolio',
+  description: `Bhavya B Anil's portfolio in Next.Js-14`,
   other: {
     'theme-color': '#2c1250',
     'color-scheme': 'dark only',
